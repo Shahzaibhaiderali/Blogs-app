@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.dashboard {
+    width: 70%;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(36, 35, 35, 0.4); /* Adjust the values for a darker shadow */
+    padding: 20px;
+}
+
+
+.dashboard-heading {
+    font-size: 40px;
+    font-weight: bold;
+    color: #161515;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #7749F8;
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease; /* Add transition effect */
+}
+
+input[type="text"]:hover,
+textarea:hover {
+    border-color: #f4f3f7; /* Change the border color on hover */
+}
+
+
+input[type="button"] {
+    width: 20%;
+    padding: 12px;
+    background-color: #7749F8;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="button"]:hover {
+    background-color: #4f28bb;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Additional styling for responsiveness */
+@media only screen and (max-width: 768px) {
+    .dashboard {
+        width: 90%;
+        height: auto;
+    }
+}
